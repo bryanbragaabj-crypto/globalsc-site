@@ -16,7 +16,7 @@ export default function FAQGarantia() {
             </a>
 
             <a href="/politica-de-privacidade" className="hover:text-[#9f7524] transition-colors">
-              PolÃ­tica de Privacidade
+              Política de Privacidade
             </a>
 
             <a href="/termos-de-uso" className="hover:text-[#9f7524] transition-colors">
@@ -60,14 +60,14 @@ export default function FAQGarantia() {
                 href="/faq/frete"
                 className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
-                4) O FRETE Ã‰ GRÃTIS?
+                4) O FRETE É GRÁTIS?
               </a>
 
               <a
                 href="/faq/como-comprar"
                 className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
-                2) COMO FAÃ‡O PARA COMPRAR?
+                2) COMO FAÇO PARA COMPRAR?
               </a>
 
               <a
@@ -107,27 +107,27 @@ export default function FAQGarantia() {
             <div className="w-full border border-[#b0a9c0] rounded-[30px] bg-[#fbfbfb] p-8 md:p-12 shadow-sm text-center">
               <div className="text-[13px] md:text-[15px] text-gray-800 leading-relaxed font-medium">
                 <p>
-                  As condiÃ§Ãµes de garantia podem variar conforme o tipo de
-                  produto, fabricante, importador e fornecedor responsÃ¡vel pela
+                  As condições de garantia podem variar conforme o tipo de
+                  produto, fabricante, importador e fornecedor responsável pela
                   venda. Quando houver garantia legal, contratual ou comercial,
-                  suas condiÃ§Ãµes, prazo, abrangÃªncia e procedimento de
-                  atendimento serÃ£o informados conforme a documentaÃ§Ã£o e as
-                  condiÃ§Ãµes aplicÃ¡veis Ã  negociaÃ§Ã£o.
+                  suas condições, prazo, abrangência e procedimento de
+                  atendimento serão informados conforme a documentação e as
+                  condições aplicáveis à negociação.
                 </p>
 
                 <p className="mt-4">
-                  Caso seja identificado algum defeito, divergÃªncia ou problema
+                  Caso seja identificado algum defeito, divergência ou problema
                   relacionado ao produto recebido, orientamos que o cliente entre
                   em contato com a equipe comercial ou com o fornecedor
-                  responsÃ¡vel, informando os dados do pedido e, quando possÃ­vel,
-                  enviando fotos ou vÃ­deos para anÃ¡lise inicial.
+                  responsável, informando os dados do pedido e, quando possível,
+                  enviando fotos ou vídeos para análise inicial.
                 </p>
 
                 <p className="mt-4">
-                  A avaliaÃ§Ã£o e o encaminhamento de cada situaÃ§Ã£o serÃ£o
-                  realizados de acordo com a origem do produto, as condiÃ§Ãµes
-                  comerciais confirmadas no pedido, a polÃ­tica do fornecedor e a
-                  legislaÃ§Ã£o aplicÃ¡vel. A Global SC auxilia na comunicaÃ§Ã£o e no
+                  A avaliação e o encaminhamento de cada situação serão
+                  realizados de acordo com a origem do produto, as condições
+                  comerciais confirmadas no pedido, a política do fornecedor e a
+                  legislação aplicável. A Global SC auxilia na comunicação e no
                   direcionamento entre as partes para que o atendimento ocorra de
                   forma organizada e transparente.
                 </p>
@@ -185,9 +185,9 @@ function renderSelos() {
             </h4>
 
             <p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">
-              FRETE NA REGIÃƒO DE FLORIANÃ“POLIS.
+              FRETE NA REGIÃO DE FLORIANÓPOLIS.
               <br />
-              OUTRA REGIÃƒO CONSULTAR VALOR
+              OUTRA REGIÃO CONSULTAR VALOR
             </p>
           </div>
         </div>
@@ -242,7 +242,7 @@ function renderSelos() {
             </h4>
 
             <p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">
-              SITE 100% CONFIÃVEL E APROVADO
+              SITE 100% CONFIÁVEL E APROVADO
               <br />
               NO TRUSTPILOT
             </p>
@@ -272,7 +272,7 @@ function renderRodape() {
               href="/quem-somos"
               className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors"
             >
-              SOBRE NÃ“S
+              SOBRE NÓS
             </a>
 
             <a
@@ -344,7 +344,7 @@ function renderRodape() {
               </svg>
 
               <a
-                href="mailto:contato@screpresentation.com.br"
+                href="mailto:contato@globalscaltoatacado.com"
                 className="bg-[#c79a3a] text-white text-[7px] md:text-[7px] uppercase font-bold py-2 px-2 rounded w-full max-w-[200px] text-center whitespace-nowrap underline underline-offset-2 shadow-md"
               >
                 contato@globalscaltoatacado.com
@@ -369,7 +369,7 @@ function renderRodape() {
               </svg>
 
               <span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">
-                POLÃTICAS:
+                POLÍTICAS:
               </span>
             </div>
 
@@ -377,21 +377,21 @@ function renderRodape() {
               href="/politica-de-privacidade"
               className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block"
             >
-              PolÃ­tica de Privacidade (LGPD)
+              Política de Privacidade (LGPD)
             </a>
 
             <a
               href="/politicas-de-troca"
               className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block"
             >
-              PolÃ­ticas de Troca
+              Políticas de Troca
             </a>
 
             <a
               href="/termos-de-uso"
               className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block"
             >
-              Termos de Uso e CondiÃ§Ãµes Gerais
+              Termos de Uso e Condições Gerais
             </a>
 
             <a
@@ -453,30 +453,30 @@ function renderRodape() {
       </div>
 
       <div className="bg-[#c79a3a] text-black text-[9px] md:text-[10px] font-bold text-center uppercase leading-relaxed px-4 py-4 tracking-[0.08em] border-t-2 border-black relative z-20 shadow-md">
-        ESTE CATÃLOGO B2B DESTINA-SE EXCLUSIVAMENTE Ã€ CONSULTA DE PRODUTOS E
-        SOLICITAÃ‡ÃƒO DE ORÃ‡AMENTOS. NÃƒO SÃƒO REALIZADOS PAGAMENTOS PELO SITE VIA
-        PIX, BOLETO OU CARTÃƒO. TODAS AS NEGOCIAÃ‡Ã•ES, DESCONTOS E FORMAS DE
+        ESTE CATÁLOGO B2B DESTINA-SE EXCLUSIVAMENTE À CONSULTA DE PRODUTOS E
+        SOLICITAÇÃO DE ORÇAMENTOS. NÃO SÃO REALIZADOS PAGAMENTOS PELO SITE VIA
+        PIX, BOLETO OU CARTÃO. TODAS AS NEGOCIAÇÕES, DESCONTOS E FORMAS DE
         PAGAMENTO DEVEM SER TRATADAS DIRETAMENTE COM A EMPRESA FORNECEDORA OU
-        ATRAVÃ‰S DO FINANCEIRO: (48) 99207-0377 â€“ TIAGO BRAGA.
+        ATRAVÉS DO FINANCEIRO: (48) 99207-0377 – TIAGO BRAGA.
       </div>
 
       <div className="text-center text-[10px] md:text-[11px] text-zinc-500 py-6 space-y-1.5 bg-[#080808] tracking-widest uppercase relative z-20 font-light">
-        <p>Â© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
+        <p>© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
 
         <p>
-          GLOBAL SC FÃBRICA E IMPORTADORA ALTO ATACADO | CNPJ:
+          GLOBAL SC FÁBRICA E IMPORTADORA ALTO ATACADO | CNPJ:
           59.987.080/0001-63
         </p>
 
         <p>
-          Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, CamboriÃº
+          Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, Camboriú
           - SC, 88340-000
         </p>
 
         <p>Contato Institucional: contato@globalscaltoatacado.com</p>
 
         <p className="text-zinc-600 text-[9px]">
-          Plataforma B2B de IntermediaÃ§Ã£o Comercial â€“ Modelo de CatÃ¡logo Digital
+          Plataforma B2B de Intermediação Comercial – Modelo de Catálogo Digital
           Automatizado (Asset-Light).
         </p>
       </div>

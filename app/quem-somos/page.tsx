@@ -6,11 +6,11 @@ export default function QuemSomos() {
   const [activeTab, setActiveTab] = useState('sobre');
 
   const tabs = [
-    { id: 'sobre', label: 'Sobre nÃ³s', text: 'A GLOBAL SC FÃBRICA E IMPORTADORA ALTO ATACADO Ã© um ecossistema comercial criado para conectar fabricantes/Importadoras e atacadistas de forma estratÃ©gica, organizada e eficiente. Atuamos como um verdadeiro shopping de alto atacado digital, reunindo marcas, produtos e oportunidades em um Ãºnico ambiente profissional.\n\nNosso propÃ³sito Ã© aproximar fabricantes/Importadoras e atacadistas por meio de uma estrutura confiÃ¡vel que facilita conexÃµes, gera oportunidades de negÃ³cio e impulsiona resultados. Criamos um espaÃ§o moderno e bem posicionado, onde produtos podem ser encontrados com mais facilidade e onde parcerias comerciais acontecem de forma natural.\n\nMais do que uma plataforma de vendas, a GLOBAL SC representa conexÃ£o, estratÃ©gia e crescimento, ajudando empresas a expandirem seus atacados e evoluÃ­rem dentro de um mercado cada vez mais digital.' },
-    { id: 'como', label: 'Como funciona', text: 'Nossa infraestrutura opera baseada na metodologia Asset-Light (operaÃ§Ãµes com ativos reduzidos). Isso significa que a Global SC Alto Atacado funciona como uma interface de intermediaÃ§Ã£o e vitrine tecnolÃ³gica: nÃ£o mantemos estoque prÃ³prio de mercadorias. Todo o catÃ¡logo exibido na plataforma reflete os produtos de fornecedores rigorosamente homologados que integram a nossa rede, garantindo conexÃµes comerciais seguras e escalÃ¡veis.' },
-    { id: 'missao', label: 'MissÃ£o', text: 'Conectar fabricantes e importadoras ao mercado de forma estratÃ©gica e eficiente, criando um ambiente profissional onde atacadistas possam se posicionar, ganhar visibilidade e gerar oportunidades reais de negÃ³cios por meio de conexÃµes sÃ³lidas e bem direcionadas.' },
-    { id: 'visao', label: 'VisÃ£o', text: 'Ser referÃªncia em todo Brasil como um ecossistema digital de negÃ³cios e shopping alto atacado, reconhecido por conectar fabricantes e importadoras, impulsionar oportunidades comerciais e fortalecer marcas por meio de um ambiente estratÃ©gico que gera crescimento sustentÃ¡vel.' },
-    { id: 'valores', label: 'Valores', text: 'â€¢ EstratÃ©gia: Atuamos com planejamento e visÃ£o de mercado para conectar fabricantes/Importadoras e atacadistas de forma inteligente e eficiente.\n\nâ€¢ Credibilidade: ConstruÃ­mos relaÃ§Ãµes baseadas em confianÃ§a, transparÃªncia e responsabilidade entre todos que fazem parte do ecossistema.\n\nâ€¢ Profissionalismo: Mantemos um padrÃ£o elevado de organizaÃ§Ã£o, atendimento e posicionamento dentro do ambiente da Global SC.\n\nâ€¢ ConexÃµes de Valor: Promovemos conexÃµes entre fabricantes/Importadoras e atacadistas que geram oportunidades reais de negÃ³cio e crescimento mÃºtuo.\n\nâ€¢ Crescimento: Trabalhamos para impulsionar marcas, ampliar oportunidades comerciais e gerar evoluÃ§Ã£o constante dentro do mercado digital.' }
+    { id: 'sobre', label: 'Sobre nós', text: 'A GLOBAL SC FÁBRICA E IMPORTADORA ALTO ATACADO é um ecossistema comercial criado para conectar fabricantes/Importadoras e atacadistas de forma estratégica, organizada e eficiente. Atuamos como um verdadeiro shopping de alto atacado digital, reunindo marcas, produtos e oportunidades em um único ambiente profissional.\n\nNosso propósito é aproximar fabricantes/Importadoras e atacadistas por meio de uma estrutura confiável que facilita conexões, gera oportunidades de negócio e impulsiona resultados. Criamos um espaço moderno e bem posicionado, onde produtos podem ser encontrados com mais facilidade e onde parcerias comerciais acontecem de forma natural.\n\nMais do que uma plataforma de vendas, a GLOBAL SC representa conexão, estratégia e crescimento, ajudando empresas a expandirem seus atacados e evoluírem dentro de um mercado cada vez mais digital.' },
+    { id: 'como', label: 'Como funciona', text: 'Nossa infraestrutura opera baseada na metodologia Asset-Light (operações com ativos reduzidos). Isso significa que a Global SC Alto Atacado funciona como uma interface de intermediação e vitrine tecnológica: não mantemos estoque próprio de mercadorias. Todo o catálogo exibido na plataforma reflete os produtos de fornecedores rigorosamente homologados que integram a nossa rede, garantindo conexões comerciais seguras e escaláveis.' },
+    { id: 'missao', label: 'Missão', text: 'Conectar fabricantes e importadoras ao mercado de forma estratégica e eficiente, criando um ambiente profissional onde atacadistas possam se posicionar, ganhar visibilidade e gerar oportunidades reais de negócios por meio de conexões sólidas e bem direcionadas.' },
+    { id: 'visao', label: 'Visão', text: 'Ser referência em todo Brasil como um ecossistema digital de negócios e shopping alto atacado, reconhecido por conectar fabricantes e importadoras, impulsionar oportunidades comerciais e fortalecer marcas por meio de um ambiente estratégico que gera crescimento sustentável.' },
+    { id: 'valores', label: 'Valores', text: '• Estratégia: Atuamos com planejamento e visão de mercado para conectar fabricantes/Importadoras e atacadistas de forma inteligente e eficiente.\n\n• Credibilidade: Construímos relações baseadas em confiança, transparência e responsabilidade entre todos que fazem parte do ecossistema.\n\n• Profissionalismo: Mantemos um padrão elevado de organização, atendimento e posicionamento dentro do ambiente da Global SC.\n\n• Conexões de Valor: Promovemos conexões entre fabricantes/Importadoras e atacadistas que geram oportunidades reais de negócio e crescimento mútuo.\n\n• Crescimento: Trabalhamos para impulsionar marcas, ampliar oportunidades comerciais e gerar evolução constante dentro do mercado digital.' }
   ];
 
   return (
@@ -22,12 +22,12 @@ export default function QuemSomos() {
           <div className="flex flex-wrap justify-center items-center gap-x-10 md:gap-x-14 gap-y-2 text-[10px] md:text-[12px] font-medium underline underline-offset-4 decoration-black">
             <a href="/quem-somos" className="hover:text-[#9f7524] transition-colors">Quem Somos</a>
             <a href="/como-funciona" className="hover:text-[#9f7524] transition-colors">Como Funciona</a>
-            <a href="/politica-de-privacidade" className="hover:text-[#9f7524] transition-colors">PolÃ­tica de Privacidade</a>
+            <a href="/politica-de-privacidade" className="hover:text-[#9f7524] transition-colors">Política de Privacidade</a>
             <a href="/termos-de-uso" className="hover:text-[#9f7524] transition-colors">Termos de Uso</a>
           </div>
         </nav>
 
-        {/* CABEÃ‡ALHO */}
+        {/* CABEÇALHO */}
         <header className="w-full bg-[#eeeeee]">
           <div className="w-full bg-black border-t-[4px] border-b-[4px] border-[#a97820] py-5 text-center px-4">
             <a href="/" className="inline-block hover:scale-[1.01] transition-transform">
@@ -36,7 +36,7 @@ export default function QuemSomos() {
           </div>
         </header>
 
-        {/* BANNER PRINCIPAL DE PONTA A PONTA (PRÃ‰DIO) */}
+        {/* BANNER PRINCIPAL DE PONTA A PONTA (PRÉDIO) */}
         <div className="w-full bg-black border-b-[4px] border-[#a97820]">
           {/* Alterado para .png conforme solicitado */}
           <img 
@@ -46,7 +46,7 @@ export default function QuemSomos() {
           />
         </div>
 
-        {/* CONTEÃšDO (ABAS E TEXTO) */}
+        {/* CONTEÚDO (ABAS E TEXTO) */}
         <section className="w-full bg-white py-12 px-4 md:px-12 flex-grow">
           <div className="w-full max-w-[1140px] mx-auto">
             
@@ -67,13 +67,13 @@ export default function QuemSomos() {
                 ))}
               </div>
 
-              {/* CAIXA DE TEXTO E BOTÃƒO */}
+              {/* CAIXA DE TEXTO E BOTÃO */}
               <div className="border border-gray-300 rounded-[20px] bg-[#fbfbfb] p-6 md:p-10 min-h-[300px] flex flex-col justify-between shadow-sm">
                 <div className="text-[13px] md:text-[16px] text-gray-800 leading-relaxed text-justify whitespace-pre-line font-medium">
                   {tabs.find(t => t.id === activeTab)?.text}
                 </div>
                 
-                {/* BOTÃƒO VOLTAR - COR SÃ“LIDA #947027 COM BORDA INFERIOR BRANCA */}
+                {/* BOTÃO VOLTAR - COR SÓLIDA #947027 COM BORDA INFERIOR BRANCA */}
                 <div className="mt-12 flex justify-center w-full">
                   <a 
                     href="/" 
@@ -102,9 +102,9 @@ function renderSelos() {
   return (
     <section className="w-full bg-[#eeeeee] border-t-[3px] border-[#9b7324] py-10 px-4 md:px-8">
       <div className="w-full max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 80 50" className="w-[44px] h-[30px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 16h26" /><path d="M1 23h26" /><path d="M8 30h20" /><path d="M34 14h20v20H34z" /><path d="M54 22h10l7 8v4H54z" /><circle cx="43" cy="38" r="4" /><circle cx="66" cy="38" r="4" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">FRETE A COMBINAR:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">FRETE NA REGIÃƒO DE FLORIANÃ“POLIS.<br/>OUTRA REGIÃƒO CONSULTAR VALOR</p></div></div>
+        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 80 50" className="w-[44px] h-[30px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 16h26" /><path d="M1 23h26" /><path d="M8 30h20" /><path d="M34 14h20v20H34z" /><path d="M54 22h10l7 8v4H54z" /><circle cx="43" cy="38" r="4" /><circle cx="66" cy="38" r="4" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">FRETE A COMBINAR:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">FRETE NA REGIÃO DE FLORIANÓPOLIS.<br/>OUTRA REGIÃO CONSULTAR VALOR</p></div></div>
         <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="30" cy="22" r="12" /><path d="M18 23v-4a12 12 0 0 1 24 0v4" /><path d="M17 25h-4v10h6" /><path d="M43 25h4v10h-6" /><path d="M42 35c0 6-5 9-12 9" /><path d="M24 44h12" /><path d="M16 56c2-8 8-12 14-12s12 4 14 12" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">ATENDIMENTO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">DE SEGUNDA A SEXTA DAS 7H - 20H</p></div></div>
-        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M30 5l20 8v14c0 14-9 23-20 28C19 50 10 41 10 27V13z" /><path d="M20 30l7 7 14-17" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">SITE SEGURO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">SITE 100% CONFIÃVEL E APROVADO<br/>NO TRUSTPILOT</p></div></div>
+        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M30 5l20 8v14c0 14-9 23-20 28C19 50 10 41 10 27V13z" /><path d="M20 30l7 7 14-17" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">SITE SEGURO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">SITE 100% CONFIÁVEL E APROVADO<br/>NO TRUSTPILOT</p></div></div>
       </div>
     </section>
   );
@@ -119,7 +119,7 @@ function renderRodape() {
             <img src="/logo.png" alt="GLOBAL SC" className="max-h-[50px] md:max-h-[60px] object-contain" />
           </div>
           <div className="flex-1 flex flex-col md:flex-row justify-around items-end w-full gap-4 pb-1">
-            <a href="/quem-somos" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">SOBRE NÃ“S</a>
+            <a href="/quem-somos" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">SOBRE NÓS</a>
             <a href="/faq/contato" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">FALE CONOSCO</a>
             <a href="/trabalhe-conosco" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">TRABALHE CONOSCO</a>
           </div>
@@ -128,13 +128,13 @@ function renderRodape() {
           <div className="flex flex-col items-center md:items-start space-y-4">
             <div className="flex items-center gap-3"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">CONTATO:</span></div>
             <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="https://wa.me/554892070377" target="_blank" rel="noopener noreferrer" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[200px] text-center underline underline-offset-2 shadow-md">+55 48 9207-0377</a></div>
-            <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:contato@screpresentation.com.br" className="bg-[#c79a3a] text-white text-[7px] md:text-[7px] uppercase font-bold py-2 px-2 rounded w-full max-w-[200px] text-center whitespace-nowrap underline underline-offset-2 shadow-md">contato@globalscaltoatacado.com</a></div>
+            <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:contato@globalscaltoatacado.com" className="bg-[#c79a3a] text-white text-[7px] md:text-[7px] uppercase font-bold py-2 px-2 rounded w-full max-w-[200px] text-center whitespace-nowrap underline underline-offset-2 shadow-md">contato@globalscaltoatacado.com</a></div>
           </div>
           <div className="flex flex-col items-center md:items-start space-y-4 w-full">
-            <div className="flex items-center gap-3 mb-1"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">POLÃTICAS:</span></div>
-            <a href="/politica-de-privacidade" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">PolÃ­tica de Privacidade (LGPD)</a>
-            <a href="/politicas-de-troca" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">PolÃ­ticas de Troca</a>
-            <a href="/termos-de-uso" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Termos de Uso e CondiÃ§Ãµes Gerais</a>
+            <div className="flex items-center gap-3 mb-1"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">POLÍTICAS:</span></div>
+            <a href="/politica-de-privacidade" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Política de Privacidade (LGPD)</a>
+            <a href="/politicas-de-troca" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Políticas de Troca</a>
+            <a href="/termos-de-uso" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Termos de Uso e Condições Gerais</a>
             <a href="/aviso-legal" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Aviso Legal</a>
           </div>
           <div className="flex flex-col items-center md:items-start space-y-5">
@@ -148,14 +148,14 @@ function renderRodape() {
         </div>
       </div>
       <div className="bg-[#c79a3a] text-black text-[9px] md:text-[10px] font-bold text-center uppercase leading-relaxed px-4 py-4 tracking-[0.08em] border-t-2 border-black relative z-20 shadow-md">
-        ESTE CATÃLOGO B2B DESTINA-SE EXCLUSIVAMENTE Ã€ CONSULTA DE PRODUTOS E SOLICITAÃ‡ÃƒO DE ORÃ‡AMENTOS. NÃƒO SÃƒO REALIZADOS PAGAMENTOS PELO SITE VIA PIX, BOLETO OU CARTÃƒO. TODAS AS NEGOCIAÃ‡Ã•ES, DESCONTOS E FORMAS DE PAGAMENTO DEVEM SER TRATADAS DIRETAMENTE COM A EMPRESA FORNECEDORA OU ATRAVÃ‰S DO FINANCEIRO: (48) 99207-0377 â€“ TIAGO BRAGA.
+        ESTE CATÁLOGO B2B DESTINA-SE EXCLUSIVAMENTE À CONSULTA DE PRODUTOS E SOLICITAÇÃO DE ORÇAMENTOS. NÃO SÃO REALIZADOS PAGAMENTOS PELO SITE VIA PIX, BOLETO OU CARTÃO. TODAS AS NEGOCIAÇÕES, DESCONTOS E FORMAS DE PAGAMENTO DEVEM SER TRATADAS DIRETAMENTE COM A EMPRESA FORNECEDORA OU ATRAVÉS DO FINANCEIRO: (48) 99207-0377 – TIAGO BRAGA.
       </div>
       <div className="text-center text-[10px] md:text-[11px] text-zinc-500 py-6 space-y-1.5 bg-[#080808] tracking-widest uppercase relative z-20 font-light">
-        <p>Â© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
-        <p>GLOBAL SC FÃBRICA E IMPORTADORA ALTO ATACADO | CNPJ: 59.987.080/0001-63</p>
-        <p>Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, CamboriÃº - SC, 88340-000</p>
+        <p>© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
+        <p>GLOBAL SC FÁBRICA E IMPORTADORA ALTO ATACADO | CNPJ: 59.987.080/0001-63</p>
+        <p>Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, Camboriú - SC, 88340-000</p>
         <p>Contato Institucional: contato@globalscaltoatacado.com</p>
-        <p className="text-zinc-600 text-[9px]">Plataforma B2B de IntermediaÃ§Ã£o Comercial â€“ Modelo de CatÃ¡logo Digital Automatizado (Asset-Light).</p>
+        <p className="text-zinc-600 text-[9px]">Plataforma B2B de Intermediação Comercial – Modelo de Catálogo Digital Automatizado (Asset-Light).</p>
       </div>
     </footer>
   );

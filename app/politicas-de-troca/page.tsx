@@ -10,12 +10,12 @@ export default function PoliticasDeTroca() {
           <div className="flex flex-wrap justify-center items-center gap-x-10 md:gap-x-14 gap-y-2 text-[10px] md:text-[12px] font-medium underline underline-offset-4 decoration-black">
             <a href="/quem-somos" className="hover:text-[#9f7524] transition-colors">Quem Somos</a>
             <a href="/como-funciona" className="hover:text-[#9f7524] transition-colors">Como Funciona</a>
-            <a href="/politica-de-privacidade" className="hover:text-[#9f7524] transition-colors">PolÃ­tica de Privacidade</a>
+            <a href="/politica-de-privacidade" className="hover:text-[#9f7524] transition-colors">Política de Privacidade</a>
             <a href="/termos-de-uso" className="hover:text-[#9f7524] transition-colors">Termos de Uso</a>
           </div>
         </nav>
 
-        {/* CABEÃ‡ALHO */}
+        {/* CABEÇALHO */}
         <header className="w-full bg-[#eeeeee]">
           <div className="w-full bg-black border-t-[4px] border-b-[4px] border-[#a97820] py-5 text-center px-4">
             <a href="/" className="inline-block hover:scale-[1.01] transition-transform">
@@ -24,64 +24,64 @@ export default function PoliticasDeTroca() {
           </div>
         </header>
 
-        {/* BANNER DA PÃGINA */}
+        {/* BANNER DA PÁGINA */}
         <div className="w-full bg-black border-b-[4px] border-[#a97820]">
           <img 
             src="/banner-trocas.png" 
-            alt="PolÃ­tica de Troca - Global SC" 
+            alt="Política de Troca - Global SC" 
             className="w-full h-[180px] md:h-[280px] object-cover block" 
           />
         </div>
 
-        {/* CONTEÃšDO PRINCIPAL (DOCUMENTO JURÃDICO) */}
+        {/* CONTEÚDO PRINCIPAL (DOCUMENTO JURÍDICO) */}
         <section className="w-full bg-white py-12 px-4 md:px-12 flex-grow flex justify-center">
           <div className="w-full max-w-[1000px] border border-gray-300 rounded-[20px] bg-[#fbfbfb] p-6 md:p-12 shadow-sm">
             
             <h2 className="text-[16px] md:text-[20px] font-black uppercase tracking-wide text-black border-b-2 border-gray-200 pb-4 mb-8">
-              ðŸ“Œ POLÃTICA DE TROCAS, DEVOLUÃ‡Ã•ES E LOGÃSTICA REVERSA B2B
+              📌 POLÍTICA DE TROCAS, DEVOLUÇÕES E LOGÍSTICA REVERSA B2B
             </h2>
 
             <div className="text-[12px] md:text-[14px] text-gray-800 leading-relaxed text-justify space-y-6">
               
               <p>
-                A presente polÃ­tica regula as diretrizes para trocas e devoluÃ§Ãµes no ecossistema de negÃ³cios da GLOBAL SC ATACADO. Por se tratar de uma plataforma de intermediaÃ§Ã£o comercial estritamente voltada para o modelo B2B (Business-to-Business), informamos que todas as aquisiÃ§Ãµes sÃ£o destinadas Ã  revenda.
+                A presente política regula as diretrizes para trocas e devoluções no ecossistema de negócios da GLOBAL SC ATACADO. Por se tratar de uma plataforma de intermediação comercial estritamente voltada para o modelo B2B (Business-to-Business), informamos que todas as aquisições são destinadas à revenda.
               </p>
 
               <h3 className="font-bold text-black uppercase mt-6 border-l-[3px] border-[#9b7324] pl-3">
-                CLÃUSULA 1 â€“ DA EXCLUSÃƒO DO CÃ“DIGO DE DEFESA DO CONSUMIDOR (CDC)
+                CLÁUSULA 1 – DA EXCLUSÃO DO CÓDIGO DE DEFESA DO CONSUMIDOR (CDC)
               </h3>
               <p>
-                As relaÃ§Ãµes comerciais estabelecidas atravÃ©s do nosso catÃ¡logo digital ocorrem exclusivamente entre Pessoas JurÃ­dicas (ou pessoas fÃ­sicas equiparadas a lojistas) cujo objetivo Ã© a revenda ou insumo produtivo. Dessa forma, as negociaÃ§Ãµes <strong>nÃ£o</strong> sÃ£o regidas pelo CÃ³digo de Defesa do Consumidor (Lei nÂº 8.078/1990), sendo amparadas e disciplinadas pelo <strong>CÃ³digo Civil Brasileiro (Lei nÂº 10.406/2002)</strong>. Consequentemente, nÃ£o se aplica o "Direito de Arrependimento" de 7 dias previsto para compras de consumo final.
+                As relações comerciais estabelecidas através do nosso catálogo digital ocorrem exclusivamente entre Pessoas Jurídicas (ou pessoas físicas equiparadas a lojistas) cujo objetivo é a revenda ou insumo produtivo. Dessa forma, as negociações <strong>não</strong> são regidas pelo Código de Defesa do Consumidor (Lei nº 8.078/1990), sendo amparadas e disciplinadas pelo <strong>Código Civil Brasileiro (Lei nº 10.406/2002)</strong>. Consequentemente, não se aplica o "Direito de Arrependimento" de 7 dias previsto para compras de consumo final.
               </p>
 
               <h3 className="font-bold text-black uppercase mt-6 border-l-[3px] border-[#9b7324] pl-3">
-                CLÃUSULA 2 â€“ VÃCIOS REDIBITÃ“RIOS (DEFEITOS DE FABRICAÃ‡ÃƒO)
+                CLÁUSULA 2 – VÍCIOS REDIBITÓRIOS (DEFEITOS DE FABRICAÇÃO)
               </h3>
               <p>
-                O atacadista tem o dever de conferir a mercadoria no ato do recebimento. Caso seja constatado algum vÃ­cio oculto ou defeito de fabricaÃ§Ã£o nos produtos adquiridos, o comprador terÃ¡ o prazo decadencial estipulado pelo CÃ³digo Civil (Art. 445) de atÃ© 30 (trinta) dias, contados da entrega efetiva ou da constataÃ§Ã£o do vÃ­cio oculto, para registrar a reclamaÃ§Ã£o.
+                O atacadista tem o dever de conferir a mercadoria no ato do recebimento. Caso seja constatado algum vício oculto ou defeito de fabricação nos produtos adquiridos, o comprador terá o prazo decadencial estipulado pelo Código Civil (Art. 445) de até 30 (trinta) dias, contados da entrega efetiva ou da constatação do vício oculto, para registrar a reclamação.
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>A GLOBAL SC atua como facilitadora (Asset-Light), nÃ£o retendo estoque. A troca ou reposiÃ§Ã£o do produto serÃ¡ processada diretamente pela FÃ¡brica ou Importadora responsÃ¡vel pela marca.</li>
-                <li>O produto deverÃ¡ ser devolvido em sua embalagem original, acompanhado das respectivas notas fiscais de devoluÃ§Ã£o, sem indÃ­cios de uso inapropriado pelo lojista.</li>
+                <li>A GLOBAL SC atua como facilitadora (Asset-Light), não retendo estoque. A troca ou reposição do produto será processada diretamente pela Fábrica ou Importadora responsável pela marca.</li>
+                <li>O produto deverá ser devolvido em sua embalagem original, acompanhado das respectivas notas fiscais de devolução, sem indícios de uso inapropriado pelo lojista.</li>
               </ul>
 
               <h3 className="font-bold text-black uppercase mt-6 border-l-[3px] border-[#9b7324] pl-3">
-                CLÃUSULA 3 â€“ DA LOGÃSTICA REVERSA
+                CLÁUSULA 3 – DA LOGÍSTICA REVERSA
               </h3>
               <p>
-                Aprovada a solicitaÃ§Ã£o tÃ©cnica por defeito, a logÃ­stica reversa serÃ¡ coordenada junto Ã  IndÃºstria fornecedora. Os custos de frete referentes Ã  devoluÃ§Ã£o por defeito comprovado de fÃ¡brica serÃ£o arcados pelo fornecedor ou negociados caso a caso, dependendo do volume e da localidade, sempre visando a reposiÃ§Ã£o do saldo em mercadoria ou abatimento financeiro em pedidos futuros.
+                Aprovada a solicitação técnica por defeito, a logística reversa será coordenada junto à Indústria fornecedora. Os custos de frete referentes à devolução por defeito comprovado de fábrica serão arcados pelo fornecedor ou negociados caso a caso, dependendo do volume e da localidade, sempre visando a reposição do saldo em mercadoria ou abatimento financeiro em pedidos futuros.
               </p>
 
               <h3 className="font-bold text-black uppercase mt-6 border-l-[3px] border-[#9b7324] pl-3">
-                CLÃUSULA 4 â€“ DAS DIVERGÃŠNCIAS NO PEDIDO
+                CLÁUSULA 4 – DAS DIVERGÊNCIAS NO PEDIDO
               </h3>
               <p>
-                Qualquer divergÃªncia de grade, cor, modelo ou faturamento financeiro deverÃ¡ ser notificada aos canais oficiais da GLOBAL SC em atÃ© 48 horas Ãºteis apÃ³s o recebimento da carga. Findo este prazo, a remessa serÃ¡ considerada aceita em sua totalidade pelo lojista.
+                Qualquer divergência de grade, cor, modelo ou faturamento financeiro deverá ser notificada aos canais oficiais da GLOBAL SC em até 48 horas úteis após o recebimento da carga. Findo este prazo, a remessa será considerada aceita em sua totalidade pelo lojista.
               </p>
 
             </div>
 
-            {/* BOTÃƒO VOLTAR - PADRÃƒO DOURADO SÃ“LIDO */}
+            {/* BOTÃO VOLTAR - PADRÃO DOURADO SÓLIDO */}
             <div className="mt-16 flex justify-center w-full">
               <a 
                 href="/" 
@@ -105,16 +105,16 @@ export default function PoliticasDeTroca() {
 }
 
 // ============================================================================
-// COMPONENTES DE RODAPÃ‰ E SELOS (Mantendo a padronizaÃ§Ã£o exata)
+// COMPONENTES DE RODAPÉ E SELOS (Mantendo a padronização exata)
 // ============================================================================
 
 function renderSelos() {
   return (
     <section className="w-full bg-[#eeeeee] border-t-[3px] border-[#9b7324] py-10 px-4 md:px-8">
       <div className="w-full max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 80 50" className="w-[44px] h-[30px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 16h26" /><path d="M1 23h26" /><path d="M8 30h20" /><path d="M34 14h20v20H34z" /><path d="M54 22h10l7 8v4H54z" /><circle cx="43" cy="38" r="4" /><circle cx="66" cy="38" r="4" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">FRETE A COMBINAR:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">FRETE NA REGIÃƒO DE FLORIANÃ“POLIS.<br/>OUTRA REGIÃƒO CONSULTAR VALOR</p></div></div>
+        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 80 50" className="w-[44px] h-[30px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 16h26" /><path d="M1 23h26" /><path d="M8 30h20" /><path d="M34 14h20v20H34z" /><path d="M54 22h10l7 8v4H54z" /><circle cx="43" cy="38" r="4" /><circle cx="66" cy="38" r="4" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">FRETE A COMBINAR:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">FRETE NA REGIÃO DE FLORIANÓPOLIS.<br/>OUTRA REGIÃO CONSULTAR VALOR</p></div></div>
         <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="30" cy="22" r="12" /><path d="M18 23v-4a12 12 0 0 1 24 0v4" /><path d="M17 25h-4v10h6" /><path d="M43 25h4v10h-6" /><path d="M42 35c0 6-5 9-12 9" /><path d="M24 44h12" /><path d="M16 56c2-8 8-12 14-12s12 4 14 12" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">ATENDIMENTO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">DE SEGUNDA A SEXTA DAS 7H - 20H</p></div></div>
-        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M30 5l20 8v14c0 14-9 23-20 28C19 50 10 41 10 27V13z" /><path d="M20 30l7 7 14-17" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">SITE SEGURO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">SITE 100% CONFIÃVEL E APROVADO<br/>NO TRUSTPILOT</p></div></div>
+        <div className="h-[80px] bg-white border border-[#d8a51d] rounded-[14px] flex items-center justify-start gap-4 px-6 shadow-sm"><svg viewBox="0 0 60 60" className="w-[40px] h-[40px] text-[#c89413] shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M30 5l20 8v14c0 14-9 23-20 28C19 50 10 41 10 27V13z" /><path d="M20 30l7 7 14-17" /></svg><div><h4 className="text-[14px] font-black uppercase tracking-[0.20em] leading-none text-black">SITE SEGURO:</h4><p className="text-[8px] text-gray-500 uppercase mt-1.5 tracking-[0.10em] leading-tight break-words">SITE 100% CONFIÁVEL E APROVADO<br/>NO TRUSTPILOT</p></div></div>
       </div>
     </section>
   );
@@ -129,7 +129,7 @@ function renderRodape() {
             <img src="/logo.png" alt="GLOBAL SC" className="max-h-[50px] md:max-h-[60px] object-contain" />
           </div>
           <div className="flex-1 flex flex-col md:flex-row justify-around items-end w-full gap-4 pb-1">
-            <a href="/quem-somos" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">SOBRE NÃ“S</a>
+            <a href="/quem-somos" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">SOBRE NÓS</a>
             <a href="/faq/contato" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">FALE CONOSCO</a>
             <a href="/trabalhe-conosco" className="text-[11px] md:text-[13px] uppercase tracking-[0.2em] font-normal border-b border-white pb-1 px-4 hover:border-[#c79a3a] transition-colors">TRABALHE CONOSCO</a>
           </div>
@@ -138,13 +138,13 @@ function renderRodape() {
           <div className="flex flex-col items-center md:items-start space-y-4">
             <div className="flex items-center gap-3"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">CONTATO:</span></div>
             <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="https://wa.me/554892070377" target="_blank" rel="noopener noreferrer" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[200px] text-center underline underline-offset-2 shadow-md">+55 48 9207-0377</a></div>
-            <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:contato@screpresentation.com.br" className="bg-[#c79a3a] text-white text-[7px] md:text-[7px] uppercase font-bold py-2 px-2 rounded w-full max-w-[200px] text-center whitespace-nowrap underline underline-offset-2 shadow-md">contato@globalscaltoatacado.com</a></div>
+            <div className="flex items-center gap-3 w-full justify-center md:justify-start"><svg className="w-5 h-5 text-[#c79a3a] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:contato@globalscaltoatacado.com" className="bg-[#c79a3a] text-white text-[7px] md:text-[7px] uppercase font-bold py-2 px-2 rounded w-full max-w-[200px] text-center whitespace-nowrap underline underline-offset-2 shadow-md">contato@globalscaltoatacado.com</a></div>
           </div>
           <div className="flex flex-col items-center md:items-start space-y-4 w-full">
-            <div className="flex items-center gap-3 mb-1"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">POLÃTICAS:</span></div>
-            <a href="/politica-de-privacidade" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">PolÃ­tica de Privacidade (LGPD)</a>
-            <a href="/politicas-de-troca" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">PolÃ­ticas de Troca</a>
-            <a href="/termos-de-uso" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Termos de Uso e CondiÃ§Ãµes Gerais</a>
+            <div className="flex items-center gap-3 mb-1"><svg className="w-5 h-5 text-[#c79a3a]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg><span className="text-[12px] md:text-[14px] font-bold uppercase tracking-widest">POLÍTICAS:</span></div>
+            <a href="/politica-de-privacidade" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Política de Privacidade (LGPD)</a>
+            <a href="/politicas-de-troca" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Políticas de Troca</a>
+            <a href="/termos-de-uso" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Termos de Uso e Condições Gerais</a>
             <a href="/aviso-legal" className="bg-[#c79a3a] text-white text-[10px] uppercase font-bold py-2 px-4 rounded w-full max-w-[220px] text-center underline underline-offset-2 shadow-md block">Aviso Legal</a>
           </div>
           <div className="flex flex-col items-center md:items-start space-y-5">
@@ -158,14 +158,14 @@ function renderRodape() {
         </div>
       </div>
       <div className="bg-[#c79a3a] text-black text-[9px] md:text-[10px] font-bold text-center uppercase leading-relaxed px-4 py-4 tracking-[0.08em] border-t-2 border-black relative z-20 shadow-md">
-        ESTE CATÃLOGO B2B DESTINA-SE EXCLUSIVAMENTE Ã€ CONSULTA DE PRODUTOS E SOLICITAÃ‡ÃƒO DE ORÃ‡AMENTOS. NÃƒO SÃƒO REALIZADOS PAGAMENTOS PELO SITE VIA PIX, BOLETO OU CARTÃƒO. TODAS AS NEGOCIAÃ‡Ã•ES, DESCONTOS E FORMAS DE PAGAMENTO DEVEM SER TRATADAS DIRETAMENTE COM A EMPRESA FORNECEDORA OU ATRAVÃ‰S DO FINANCEIRO: (48) 99207-0377 â€“ TIAGO BRAGA.
+        ESTE CATÁLOGO B2B DESTINA-SE EXCLUSIVAMENTE À CONSULTA DE PRODUTOS E SOLICITAÇÃO DE ORÇAMENTOS. NÃO SÃO REALIZADOS PAGAMENTOS PELO SITE VIA PIX, BOLETO OU CARTÃO. TODAS AS NEGOCIAÇÕES, DESCONTOS E FORMAS DE PAGAMENTO DEVEM SER TRATADAS DIRETAMENTE COM A EMPRESA FORNECEDORA OU ATRAVÉS DO FINANCEIRO: (48) 99207-0377 – TIAGO BRAGA.
       </div>
       <div className="text-center text-[10px] md:text-[11px] text-zinc-500 py-6 space-y-1.5 bg-[#080808] tracking-widest uppercase relative z-20 font-light">
-        <p>Â© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
-        <p>GLOBAL SC FÃBRICA E IMPORTADORA ALTO ATACADO | CNPJ: 59.987.080/0001-63</p>
-        <p>Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, CamboriÃº - SC, 88340-000</p>
+        <p>© 2026 Global SC Alto Atacado. Todos os direitos reservados.</p>
+        <p>GLOBAL SC FÁBRICA E IMPORTADORA ALTO ATACADO | CNPJ: 59.987.080/0001-63</p>
+        <p>Sede Administrativa: Av. Marginal Oeste, 90 - Monte Alegre, Camboriú - SC, 88340-000</p>
         <p>Contato Institucional: contato@globalscaltoatacado.com</p>
-        <p className="text-zinc-600 text-[9px]">Plataforma B2B de IntermediaÃ§Ã£o Comercial â€“ Modelo de CatÃ¡logo Digital Automatizado (Asset-Light).</p>
+        <p className="text-zinc-600 text-[9px]">Plataforma B2B de Intermediação Comercial – Modelo de Catálogo Digital Automatizado (Asset-Light).</p>
       </div>
     </footer>
   );
