@@ -92,7 +92,7 @@ export default function Home() {
       <div className="w-full max-w-[1260px] bg-[#eeeeee] flex flex-col shadow-xl">
         {/* 1. MENU SUPERIOR */}
         <nav className="w-full bg-[#eeeeee] py-4 px-4">
-          <div className="flex flex-wrap justify-center items-center gap-x-10 md:gap-x-14 gap-y-2 text-[10px] md:text-[12px] font-medium underline underline-offset-4 decoration-black">
+          <div className="flex flex-nowrap justify-center items-center gap-x-3 sm:gap-x-10 md:gap-x-14 text-[8px] sm:text-[10px] md:text-[12px] font-medium underline underline-offset-4 decoration-black whitespace-nowrap">
             <a
               href="/quem-somos"
               className="hover:text-[#9f7524] transition-colors"
@@ -180,7 +180,7 @@ export default function Home() {
                   <GlobeIcon />
                 </div>
 
-                <h2 className="text-xs sm:text-lg md:text-[26px] font-bold uppercase tracking-[0.16em] md:tracking-[0.25em] leading-tight px-2">
+                <h2 className="text-[9px] sm:text-lg md:text-[26px] font-bold uppercase tracking-[0.10em] sm:tracking-[0.16em] md:tracking-[0.25em] leading-tight px-2 whitespace-nowrap">
                   CATÁLOGOS DE FORNECEDORES
                 </h2>
 
@@ -189,7 +189,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <p className="mt-4 md:mt-5 text-[11px] sm:text-sm md:text-[18px] uppercase tracking-[0.02em] md:tracking-[0.04em] leading-tight">
+              <p className="mt-4 md:mt-5 text-[8px] sm:text-sm md:text-[18px] uppercase tracking-[0.02em] md:tracking-[0.04em] leading-tight whitespace-nowrap">
                 ESCOLHA UM FORNECEDOR{" "}
                 <span className="font-bold underline underline-offset-4">
                   CLICANDO
