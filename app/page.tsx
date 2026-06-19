@@ -55,12 +55,36 @@ export default function Home() {
   ];
 
   const faqItems = [
-    { text: "1) O QUE A GLOBAL SC FAZ?", url: "/faq" },
-    { text: "4) O FRETE É GRÁTIS?", url: "/faq/frete" },
-    { text: "2) COMO FAÇO PARA COMPRAR?", url: "/faq/como-comprar" },
-    { text: "5) O PRODUTO TEM GARANTIA?", url: "/faq/garantia" },
-    { text: "3) QUAL O PRAZO DE ENTREGA?", url: "/faq/prazo-de-entrega" },
-    { text: "6) COMO ENTRO EM CONTATO?", url: "/faq/contato" },
+    {
+      text: "1) O QUE A GLOBAL SC FAZ?",
+      url: "/faq",
+      order: "order-1 md:order-1",
+    },
+    {
+      text: "4) O FRETE É GRÁTIS?",
+      url: "/faq/frete",
+      order: "order-4 md:order-2",
+    },
+    {
+      text: "2) COMO FAÇO PARA COMPRAR?",
+      url: "/faq/como-comprar",
+      order: "order-2 md:order-3",
+    },
+    {
+      text: "5) O PRODUTO TEM GARANTIA?",
+      url: "/faq/garantia",
+      order: "order-5 md:order-4",
+    },
+    {
+      text: "3) QUAL O PRAZO DE ENTREGA?",
+      url: "/faq/prazo-de-entrega",
+      order: "order-3 md:order-5",
+    },
+    {
+      text: "6) COMO ENTRO EM CONTATO?",
+      url: "/faq/contato",
+      order: "order-6 md:order-6",
+    },
   ];
 
   return (
@@ -274,7 +298,7 @@ export default function Home() {
                   <a
                     key={index}
                     href={item.url}
-                    className="border-2 border-black rounded-lg bg-white py-4 px-6 text-[11px] md:text-[14px] font-bold uppercase tracking-[0.05em] text-center hover:bg-zinc-100 hover:scale-[1.02] transition-all shadow-sm"
+                    className={`${item.order} border-2 border-black rounded-lg bg-white py-4 px-6 text-[11px] md:text-[14px] font-bold uppercase tracking-[0.05em] text-center hover:bg-zinc-100 hover:scale-[1.02] transition-all shadow-sm`}
                   >
                     {item.text}
                   </a>
