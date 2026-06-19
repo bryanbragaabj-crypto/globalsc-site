@@ -199,8 +199,8 @@ export default function Home() {
             </div>
 
             <div className="mt-8 mb-6 flex flex-col items-center gap-0">
-              <div className="w-12 h-12 md:w-15 md:h-15 border-r-[3px] border-b-[3px] border-[#9b7324] rotate-45" />
-              <div className="w-16 h-16 md:w-20 md:h-20 border-r-4 border-b-4 border-[#9b7324] rotate-45 -mt-9 md:-mt-13" />
+              <div className="w-8 h-8 md:w-15 md:h-15 border-r-[3px] border-b-[3px] border-[#9b7324] rotate-45" />
+              <div className="w-12 h-12 md:w-20 md:h-20 border-r-4 border-b-4 border-[#9b7324] rotate-45 -mt-6 md:-mt-13" />
             </div>
           </div>
 
