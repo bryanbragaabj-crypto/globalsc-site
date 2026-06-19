@@ -5,20 +5,25 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://globalscaltoatacado.com"),
 
   title: "Global SC Alto Atacado | Fábricas e Importadoras",
+
   description:
     "Plataforma B2B que conecta lojistas, fábricas, importadoras e fornecedores para compras no atacado.",
+
+  alternates: {
+    canonical: "/",
+  },
 
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "/",
+    url: "https://globalscaltoatacado.com",
     siteName: "Global SC Alto Atacado",
     title: "Global SC Alto Atacado | Fábricas e Importadoras",
     description:
       "Catálogos de fornecedores, produtos para atacado e atendimento comercial para lojistas.",
     images: [
       {
-        url: "/opengraph-image.jpg",
+        url: "https://globalscaltoatacado.com/opengraph-image.jpg",
         width: 1200,
         height: 630,
         alt: "Global SC Alto Atacado - Fábricas e Importadoras",
@@ -31,7 +36,9 @@ export const metadata: Metadata = {
     title: "Global SC Alto Atacado | Fábricas e Importadoras",
     description:
       "Catálogos de fornecedores, produtos para atacado e atendimento comercial para lojistas.",
-    images: ["/opengraph-image.jpg"],
+    images: [
+      "https://globalscaltoatacado.com/opengraph-image.jpg",
+    ],
   },
 };
 
