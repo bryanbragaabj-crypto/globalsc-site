@@ -51,42 +51,42 @@ export default function FAQGlobalSC() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
               <a
                 href="/faq"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-[#fcf8e8] shadow-sm block"
+                className="order-1 md:order-1 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-[#fcf8e8] shadow-sm block"
               >
                 1) O QUE A GLOBAL SC FAZ?
               </a>
 
               <a
                 href="/faq/frete"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
+                className="order-4 md:order-2 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
                 4) O FRETE É GRÁTIS?
               </a>
 
               <a
                 href="/faq/como-comprar"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
+                className="order-2 md:order-3 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
                 2) COMO FAÇO PARA COMPRAR?
               </a>
 
               <a
                 href="/faq/garantia"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
+                className="order-5 md:order-4 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
                 5) O PRODUTO TEM GARANTIA?
               </a>
 
               <a
                 href="/faq/prazo-de-entrega"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
+                className="order-3 md:order-5 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
                 3) QUAL O PRAZO DE ENTREGA?
               </a>
 
               <a
                 href="/faq/contato"
-                className="w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
+                className="order-6 md:order-6 w-full py-4 px-6 text-center font-bold uppercase tracking-wider text-[11px] md:text-[13px] border border-black rounded-[8px] transition-all bg-white hover:bg-gray-50 block"
               >
                 6) COMO ENTRO EM CONTATO?
               </a>
